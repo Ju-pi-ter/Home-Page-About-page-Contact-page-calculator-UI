@@ -1,0 +1,236 @@
+* { margin: 0;
+    padding: 0;
+  
+}
+
+
+body {
+  margin: 0 auto;
+  box-sizing: border-box;
+  width: 1200px;
+  padding: 0;
+ 
+}
+
+header {
+  margin: 0 auto;
+  text-align: center;
+  background: black;
+  color: white;
+  height: 100px;
+  
+  
+}
+
+.heading { margin: 0;
+  font-size: 30px;
+  font-weight: bold;
+  position: realative;
+  
+}
+
+.sub-head {
+  
+  padding-left: 3px;
+  position: absolute;
+  right: 470px;
+  top: 10px;
+  border-left: 1px solid white;
+  
+}
+
+header h3 { 
+  margin-top: 20px;
+  font-size: 17px;
+   
+}
+
+header h4 {
+   margin-top: -20px;
+  font-size: 10px;
+   
+}
+
+nav { margin-top: -1.5%;
+     background: rgba(220,220,220, 0.5);
+     height: 40px;
+     
+} 
+nav ul {
+  margin: -5px auto 0 auto;
+  display: grid;
+  list-style: none;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 0;
+  justify-items: center;
+  width: 50%;
+  
+}
+
+
+
+nav a {  padding: 5px;
+  text-decoration: none;
+  color: rgb(0,191,255);
+  font-weight: bold;
+}
+nav ul li:nth-child(1) {grid-column: 1 / 2;
+                        grid-row: 1 / 2;
+}
+
+nav ul li:nth-child(2) {grid-column: 2 / 3;
+                        grid-row: 1 / 2;
+  
+}
+
+nav ul li:nth-child(3) {grid-column: 3 / 4;
+                        grid-row: 1 / 2;
+  
+}
+nav ul li:nth-child(4) {grid-column: 4 / 5;
+                        grid-row: 1 / 2;
+  
+}
+main {
+  background: rgba(220,220,220, 0.2);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 14px;
+  
+  
+}
+
+main img {
+   height: 100px;
+  width: 100px;
+  border-radius: 5px;
+   margin: 20px auto 0 auto;
+}
+
+article {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.header-title {
+  margin: 30px 0 15px 0;
+  
+}
+.header-title span {
+  border-bottom: 2px solid black;
+}
+
+article p { 
+  text-align: justify;
+  margin-bottom: 15px;
+}
+
+.goal span {
+  border-bottom: 2px solid black;
+}
+
+.skills {
+   margin-bottom: 0px
+}
+
+.skills span {
+  border-bottom: 2px solid black;
+}
+
+main article ul {
+  list-style: none;
+  margin-top: -20px;
+  line-height: 95%;
+}
+
+section {
+  width: 50%;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+
+section img {
+  
+  margin: 15px 30px 0 0; 
+  width: 40px;
+  height: 40px;
+  
+  
+}
+
+.edu {
+   margin: 2px 0 0 220px;
+}
+.edu span {
+   border-bottom: 2px solid black;
+  
+}
+.color {
+  color: rgb(0,191,255);
+  font-weight: bold;
+}
+
+section .edu-list {
+line-height: 70%;
+  list-style: none;
+}
+
+.work {
+  margin: 0 0 -10px 167px;
+  white-space: nowrap;
+  
+}
+.work span {
+   border-bottom: 2px solid black;
+}
+section .work-list {
+line-height: 70%;
+  list-style: none;
+}
+
+section .hobbies-list {line-height: 95%;
+  list-style: none;
+ margin-bottom: 10px;
+}
+section .hobbies span {
+  border-bottom: 2px solid black;
+}
+
+.hobbies {
+  margin: 2px 0 -8px 240px;
+}
+
+footer { 
+     background: black;
+     height: 40px;
+     color: white;
+     
+} 
+footer ul {
+  margin: 0 auto;
+  display: grid;
+  list-style: none;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 0;
+  place-items: center;
+  width: 50%;
+}
+
+footer ul li:nth-child(1) {grid-column: 1 / 2;
+                         grid-row: 1 / 2;
+}
+footer ul li:nth-child(2) {grid-column: 2 / 3;
+                        grid-row: 1 / 2;
+                        
+}
+footer ul li:nth-child(3) {grid-column: 3 / 4;
+                        grid-row: 1 / 2;
+                        
+}
+
+footer img{
+  height: 20px;
+  width: 20px;
+  
+}

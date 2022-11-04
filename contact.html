@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact page</title>
+  <link rel="stylesheet" type="text/css" href="contact-style.css" />
+</head>
+
+<body>
+
+  <div class="container">
+  <header>
+    <p class="Contact">Contact Me</p>
+  <p class="subhead">Any question or remarks? Just write me a message</p>
+ </header>
+
+  <nav>
+    <ul>
+      <li><a href="register.html">Register</a></li>
+      <li><a href="login.html">Login</a></li>
+      <li><a href="calculator.html">Calculator</a></li>
+    </ul>
+  </nav>
+    <main>
+  <div class="wrap">
+    <aside class="side-image">
+      <img src="image/Bg-photo.jpeg" alt="backgroundphoto">
+    </aside>
+
+    <form action="#" method="#">
+      <div class="first-field" >
+      <legend><label for="name" >Name
+        </label></legend>
+      <input type="text" id="name" name="name" class="border-style"   required>
+      </div>
+
+      <div class="second-field">
+      <legend><label for="email">Email</label></legend>
+      <input type="email" id="email" name="email" class="border-style"  required>
+      </div>
+
+      <div class="third-field">
+      <legend><label for="message">Message</label></legend>
+      <textarea id="message" name="message"  class="border-style">Enter your message here...</textarea>
+      </div>
+
+      <div class="priority-submit">
+      <legend><label for="priority">Priority</label></legend>
+
+      <select id="priority" name="priority" class="border-style">
+
+        <option value="Urgent">Urgent</option>
+        <option value="Important">Important</option>
+        <option value="Normal">Normal</option>
+      </select>
+      <button type=submit>Send message</button>
+      </div>
+      
+      <footer>
+<p Class="footer">Go back to <a class="home-nav" href="index.html">Home page</a>
+      </p>
+      </footer>
+      
+        
+    </form>
+  </div>
+    </main>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,148 @@
+body {
+  max-width: 1200;
+   color: black;
+  
+  
+  
+}
+
+.container {
+   margin: 0 auto;
+  width: 90%;
+}
+
+header {
+  margin: 0 auto;
+  width: 30%;
+  text-align: center;
+}
+
+.Contact {
+  font-size: 35px;
+  font-weight: bold;
+  font-family: monospace;
+   margin-bottom: 2px ;
+  padding-bottom: 0px;
+}
+
+.subhead { color: grey;
+          font-size:13px;
+          margin-bottom: 2%;
+         }
+
+nav {
+  padding: 0px;
+  width: 30%;
+  margin: 0 auto;
+  background-color: rgba(220,220,220, 0.2);
+text-align: center;
+}
+
+ul{
+ 
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  list-style-type: none;
+/*   justify-items: center; */
+}
+
+
+li a {
+  
+       text-decoration: none;  
+}
+li:nth-child(2) { width: 80%;
+                  
+                 text-align: center;
+                 border-right: 1px solid black;
+                 border-left: 1px solid black;
+}
+          
+.wrap {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+    background-color: rgba(220,220,220, 0.2);  
+  height: 400px;
+}
+
+aside {
+       width: 70%;
+      
+
+  
+}
+aside img { width: 100%;
+           height: 100%;
+          
+           border-radius: 10px 0px 0px 10px;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 5%;
+  height: 70%;
+  
+}
+
+.first-field {
+/* justify-self: center; */
+  grid-column: 1 / 2;
+}
+
+.second-field {
+/*   justify-self: center; */
+  
+  grid-column: 2 / 3;
+}
+.third-field {
+  grid-column: 1 / 3;
+  
+}
+.priority-submit {
+   justify-self: center;
+  grid-column: 1 / 3;
+  width: 40%
+  
+}
+footer {
+  grid-column: 1 / 3;
+  
+   
+}
+footer p {
+  width: 80%;
+  padding: 0 auto;
+  text-align: center;
+  
+  
+}
+
+.border-style { border: none;
+               outline: none;
+               border-bottom: 1px solid black;
+  
+}
+input {
+  background-color: rgba(220,220,220, 0.0);
+   width: 100%
+}
+
+textarea { font-size: 11px;
+          width: 100%;
+          background-color: rgba(220,220,220, 0.0);
+}
+
+header p {
+/*           text-align: center; */
+  
+}
+
+
+.first-field, .second-field {
+   padding: 3% 0%
+}
+.second-field {
+   padding-left: 5%;
+}
+
